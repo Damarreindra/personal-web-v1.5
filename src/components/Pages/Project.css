@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.project-info{
+    display: flex;
+    flex-direction: row;
+    margin-left: -400px;
+    margin-top: -450px;  
+}
+.project-text-container{
+    color: #fff;
+    margin-top: -50px;
+    width: 350px;
+    margin-left: -100px;
+    position: relative;
+    font-size: 20px;
+    object-fit: contain;
+}
+
+.projects-container{
+    position: absolute;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.project-text-container h7{
+    position: absolute;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .project-text-container{
+        color: #fff;
+        margin-top: -200px;
+        width: 350px;
+        margin-left:20px;
+        position: absolute;
+        font-size: 12px;
+        object-fit: contain;
+    }
+    .project-text-container h7{
+        font-size: 18px;
+    }
+    .projects-container{
+        margin-top: 350px;
+        margin-bottom: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+  }
+
+  @media screen and (max-width: 375px){
+    .project-text-container{
+        color: #fff;
+        margin-top: -200px;
+        width: 350px;
+        margin-left: 400px;
+        position: absolute;
+        font-size: 12px;
+        object-fit: contain;
+    }
+    .project-text-container h7{
+        font-size: 16px;
+    }
+    .projects-container{
+        margin-top: 350px;
+        margin-bottom: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+  }
+
+  @media screen and (max-width: 390px){
+    .project-text-container{
+        color: #fff;
+        margin-top: -200px;
+        width: 350px;
+        margin-left: 400px;
+        position: relative;
+        font-size: 12px;
+        object-fit: contain;
+    }
+    .project-text-container h7{
+        font-size: 16px;
+    }
+    .projects-container{
+        margin-top: 350px;
+        margin-bottom: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+  }
